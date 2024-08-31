@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Weather App</title>
+    <title id="name">Weather App</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
 
 
-    <!-- Make the weather app containers and form here -->
+    <!-- the weather app containers and form here  -->
+<div id="weather-container">
+<form action="" id="location-form">
+  <input id="location-input" placeholder="Enter city name"><br>
+  <input type="submit" value="Get Weather" onclick="getWeather()">
+</form>
+<p id="weather-data"></p>
 
+</div>
     
     <script src="script.js"></script>
   </body>
